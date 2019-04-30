@@ -5,7 +5,10 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-icons": "^3.6.1",
+    "react-native-vector-icons": "^6.4.2",
+    "react-scripts": "3.0.0",
+    "react-uwp": "^1.2.31"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,6 +29,9 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ],
+    "files": [
+      "node_modules/react-uwp/index.d.ts"
     ]
   }
 }

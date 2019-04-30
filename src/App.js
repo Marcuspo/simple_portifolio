@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Imagem from './logoPerfil.jpeg';
+import { FaTwitter } from "react-icons/fa";
+import { FaSteam } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './index.css';
+export default class App extends Component {
+  render() {
+    return (
+      <div className='code'>
+        <div className='back'>
+          <div className='body'>
+           <ul className='body'> - Um simples portifólio - </ul>
+          </div>
+        </div>
+         <div className='imagem2'>
+           <img className='imagem' src={Imagem} alt="Perfil" width="249" />
+          </div>
+            <ul className='texto'>Programador web e mobile. </ul>
+            <ul className='textoImage'> <FaGithub /> //github.com/Marcuspo/</ul>
+            <ul className='textoImage'> <FaLinkedin /> //www.linkedin.com/in/marcuspo/</ul>
+            <ul className='textoImage'> <FaTwitter /> //twitter.com/Marcuspo1</ul>
+            <ul className='textoImage'> <FaSteam /> //steamcommunity.com/id/marcuspo/</ul>
+            
+      </div>
+    );
+  }
 }
-
-export default App;
