@@ -10,10 +10,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Veja minhas redes sociais:
  [Linkedin](https://www.linkedin.com/in/marcuspo/).
-                            [Twitter](https://twitter.com/Marcuspo1).
-                          [E-mail](malito:marcusporama@gmail.com).
-                          [Instagram](http://instagram.com/marcuspo1/).
+.                           [Twitter](https://twitter.com/Marcuspo1).
+.                           
+.                           [Instagram](http://instagram.com/marcuspo1/).
 
-##DEMO
+
+## DEMO
 
 <img src="./src/DEMO.jpg">
